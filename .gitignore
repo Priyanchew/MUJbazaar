@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+dataconnect
+dataconnect-generated
+.env
+cors.json
+firestore.rules
