@@ -27,7 +27,7 @@ function Category() {
   useAbortableEffect(
     (status) => {
       document.title =
-        categoryName === 'sale' ? 'For Sale | Rent or Sell' : 'For Rent | Rent or Sell';
+        categoryName === 'sale' ? 'For Sale | MUJbazaar' : 'For Rent | MUJbazaar';
       const getListingsData = async () => {
         const [data, error] = await getListingsByCategory(categoryName);
         if (!status.aborted) {

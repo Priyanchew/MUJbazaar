@@ -14,7 +14,7 @@ function ForgotPassword() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = 'Forgot Password | Rent or sell';
+    document.title = 'Forgot Password | MUJbazaar';
     if (user) {
       navigate('/profile');
     }

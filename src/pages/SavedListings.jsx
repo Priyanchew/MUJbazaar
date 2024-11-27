@@ -22,7 +22,7 @@ function SavedListings() {
   const { favorites, checkFavorite } = useContext(FavoritesContext);
 
   useEffect(() => {
-    document.title = 'Saved Listings | Rent or Sell';
+    document.title = 'Saved Listings | MUJbazaar';
   }, []);
 
   useAbortableEffect(

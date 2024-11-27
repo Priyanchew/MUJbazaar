@@ -19,7 +19,7 @@ function Messages() {
   );
 
   useEffect(() => {
-    document.title = 'Messages | Rent or Sell';
+    document.title = 'Messages | MUJbazaar';
   }, []);
 
   useEffect(() => {

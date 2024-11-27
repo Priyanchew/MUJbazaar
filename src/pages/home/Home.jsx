@@ -7,7 +7,7 @@ import ForRentSection from './ForRentSection';
 
 function Home() {
   useEffect(() => {
-    document.title = 'Rent or Sell';
+    document.title = 'MUJbazaar';
   }, []);
 
   return (

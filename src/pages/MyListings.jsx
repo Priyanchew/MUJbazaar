@@ -24,7 +24,7 @@ function MyListings() {
   );
 
   useEffect(() => {
-    document.title = 'My Listings | Rent or Sell';
+    document.title = 'My Listings | MUJbazaar';
   }, []);
 
   useEffect(() => {

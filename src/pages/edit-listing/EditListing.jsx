@@ -28,7 +28,7 @@ function EditListing() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = 'Edit listing | Rent or Sell';
+    document.title = 'Edit listing | MUJbazaar';
   }, []);
 
   useAbortableEffect(
