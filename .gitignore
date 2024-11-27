@@ -8,3 +8,4 @@ dataconnect-generated
 .env
 cors.json
 firestore.rules
+.idea
