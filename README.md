@@ -3,7 +3,7 @@
 <h1 align="center">MUJbazaar</h1>
 
 <div align="center">
-  <a href="https://rentorsell.netlify.app/">
+  <a href="https://mujbazaar.vercel.app/">
       Demo
   </a>
 </div>
