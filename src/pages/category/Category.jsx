@@ -79,10 +79,6 @@ function Category() {
               <option value="">Default</option>
               <option value="price-asc">Price : Low to High</option>
               <option value="price-desc">Price : High to Low</option>
-              <option value="bedrooms">Bedrooms</option>
-              <option value="bathrooms">Bathrooms</option>
-              <option value="carspace">Car space</option>
-              <option value="listingSize">Area</option>
             </select>
           </div>
         </div>
