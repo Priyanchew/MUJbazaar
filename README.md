@@ -1,6 +1,5 @@
-<!-- Please update value in the {}  -->
 
-<h1 align="center">MUJbazaar</h1>
+# **MUJbazaar**
 
 <div align="center">
   <a href="https://mujbazaar.vercel.app/">
@@ -8,78 +7,86 @@
   </a>
 </div>
 
-<!-- TABLE OF CONTENTS -->
+---
 
 ## Table of Contents
-
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [How to use](#how-to-use)
+- [How to Use](#how-to-use)
 
-<!-- OVERVIEW -->
+---
 
 ## Overview
+**MUJbazaar** is a web application built using React, Tailwind CSS, and Firebase. It serves as a digital marketplace for students and locals to **buy, sell, or rent items** within the college community. The platform enables users to post listings, browse categories, and connect with others securely and conveniently.
 
-A web app built in react, tailwind and firebase that allows user to put their house online for sale or rent after becoming a member of the website.
-This project is an improved version of the project that Brad Traversy built in his React JS course on Udemy.
+This project was inspired by real-world challenges faced by students in accessing affordable resources, such as books, electronics, and furniture, and is tailored to provide an efficient and user-friendly solution.
 
 ### Built With
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework.
+- [DaisyUI](https://daisyui.com/) - Tailwind-based component library.
+- [Formik](https://formik.org/) - Forms and validation.
+- [Yup](https://github.com/jquense/yup) - Schema-based validation.
+- [Firebase](https://firebase.google.com/) - Backend for authentication, database, and storage.
+- [React Router v6](https://reactrouter.com/) - Routing library.
+- [Swiper](https://swiperjs.com/react/) - Carousel component.
+- [React Dropzone](https://react-dropzone.js.org/) - File upload.
+- [Geocoding API](https://us1.locationiq.com/) - For location-based services.
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Tailwind](https://tailwindcss.com/)
-- [DasiyUI](https://daisyui.com/)
-- [Formik](https://formik.org/)
-- [Yup](https://github.com/jquense/yup)
-- [Firebase](https://firebase.google.com/)
-- [React router v6](https://reactrouter.com/)
-- [Leaflet](https://leafletjs.com/)
-- [Swiper](https://swiperjs.com/react/)
-- [React Dropzone](https://react-dropzone.js.org/)
-- [Geocoding API](https://us1.locationiq.com/)
+---
 
 ## Features
+- **User Authentication**:
+  - Login and registration through email or Google account.
+- **Listing Management**:
+  - Users can create, edit, and delete listings.
+  - Upload images and details for items (e.g., price, category, description).
+- **Search and Filter**:
+  - Filter listings based on:
+    - Price (Low to High, High to Low).
+    - Category (Books, Electronics, Furniture, etc.).
+    - Item condition.
+- **Wishlist**:
+  - Save favorite listings for quick access.
+- **Messages**:
+  - Send messages to listing owners.
+  - View received messages.
+- **Real-Time Updates**:
+  - Listings and messages are updated in real time using Firebase.
+- **Geolocation**:
+  - Integration of Geocoding API for location-based item searches.
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+---
 
-<ul>
-<li>Form validation throughout the web-app</li>
-<li>User has option to login/register through their google account.</li>
-<li>User can filter listings according to
-  <ul>
-    <li>Price: Low to High</li>
-    <li>Price: High to Low</li>
-    <li>Bedrooms</li>
-    <li>Bathrooms</li>
-    <li>Carspace</li>
-    <li>Area (in SQFT)</li>
-  </ul>
-</li>
-<li>User can create/edit/delete listings from their account</li>
-<li>Geocoding</li>
-<li>User can save listings (like wishlist)</li>
-<li>User can send message to house owner.</li>
-<li>User can see messages received.</li>
-</ul>
+## How to Use
 
-## How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-<!-- Example: -->
+### Steps:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/<your-username>/MUJbazaar
+   ```
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-```bash
-# Clone this repository
-$ git clone https://github.com/agrajy10/rent-or-sell
+3. **Set Up Firebase**:
+   - Create a `firebase.config.js` file inside the `src` folder.
+   - Export Firebase services (Firestore, Storage, Auth) as `db`, `storage`, and `auth`.
 
-# Install dependencies
-$ npm install
+4. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-Place your firebase config file "firebase.config.js" inside src.
-Export firestore, firebase storage and firebase auth as db, storage and auth. Then:
+5. **Access the Website**:
+   Open your browser and navigate to `http://localhost:3000`.
 
-# Run the app
-$ npm run dev
-```
+---
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
